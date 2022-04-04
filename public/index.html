@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook App</title>
+</head>
+<body> 
+
+<section class="post-area">
+
+
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+
+                <div class="card shadow-sm">
+                    <div class="card-body">
+
+                        <div class="user-post-area">
+                            <img  src="https://scontent.fcgp6-1.fna.fbcdn.net/v/t39.30808-6/241565654_1254765044995284_6263592134673928335_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeF5mNIHJRVghhybJjdK68MkxEpISiBRLrHESkhKIFEusd56-CoxNVvq4Z_Nec2Q1UfzYHB8XZTGrW9TNTL3Xapv&_nc_ohc=dPQGenke3I0AX_x1Vvd&_nc_ht=scontent.fcgp6-1.fna&oh=00_AT-7REHuq17NHwPv2yUpEyuYX_xk-n-lWFpbm61T7phLBw&oe=624C1EB8" alt="">
+                            <button data-bs-toggle="modal" data-bs-target="#post-container">What's on your mind, Ri doy</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+</section>
+
+
+<section class="timeline">
+
+    <div class="container my-2">
+        <div class="row justify-content-center">
+            <div id="post-timeline-load" class="col-md-7 ">
+
+                <!-- post-timeline area -->
+
+       
+        </div>
+    </div>
+
+</section>
+
+<div class="modal fade" id="post-container">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <h3>crate a post</h3>
+            <div class="modal-body">
+               <div class="msg"></div>
+                <form  id="create_post_form" method="POST">
+                    <div class="my-2">
+                        <input name="name" type="text" class="form-control" placeholder="Auth Name">
+                    </div>
+                    <div class="my-2">
+                        <input name="uphoto" type="text" class="form-control" placeholder="Auth photo">
+                    </div>
+                    <div class="my-2">
+                        <input name="content" type="text" class="form-control" placeholder="content">
+                    </div>
+                    <div class="my-2">
+                        <input name="photo" type="text" class="form-control" placeholder="photo">
+                    </div>
+                    <div class="my-2">
+                        <input type="submit"  class="btn btn-primary w-100" value="post">
+                    </div>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+</div>

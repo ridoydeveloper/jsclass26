@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margim:0px;
+    padding: 0px;
+    font-family: poppins; 
+}
+
+
+
+ body {
+
+    background-color: #eef0f4;
+ }
+
+ .user-post-area{
+
+
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .user-post-area img{
+
+    width: 50PX;
+    height: 50PX;
+    object-fit: cover;
+    border-radius: 50%;
+
+  
+
+ }
+
+
+ .user-post-area button{
+
+    padding: 10px 30px;
+    background-color: #f0f2f5;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    width: 80%;
+ }
+
+ .user-timeline-info .user-info img {
+
+    width: 40PX;
+    height: 40PX;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+
+ .user-timeline-info .user-info h3 {
+
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+ 
+ .user-timeline-info  button{
+
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    transform: translate(0px ,-15px);
+ }
